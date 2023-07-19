@@ -25,7 +25,12 @@ Ejemplo:
 **03-Operadores-relacionales.cs**
 
 Los operadores relacionales en C# se utilizan para comparar valores y devolver un resultado booleano.
+
 Los operadores incluyen mayor que `>`, menor que `<`, mayor o igual que `>=`, menor o igual que `<=`, igual a `==`, y no igual a `!=`.
+
+No existen los conceptos de "valores truthy" y "valores falsy".
+
+No existe el operadorador de igualdad estricta.
 
 Ejemplo:
 ```csharp
