@@ -11,4 +11,5 @@
 //Estructura_do_while.imprimir();
 //Funciones.imprimir();
 //Estructura_array.imprimir();
-Estructura_dictionary.imprimir();
+//Estructura_dictionary.imprimir();
+Estructura_queue.imprimir();
