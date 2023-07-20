@@ -17,4 +17,5 @@
 //Estructura_hashset.imprimir();
 //Estructura_linkedlist.imprimir();
 //Estructura_Tree.imprimir();
-Estructura_graph.imprimir();
+//Estructura_graph.imprimir();
+Estructura_hashtable.imprimir();
