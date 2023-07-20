@@ -14,4 +14,5 @@
 //Estructura_dictionary.imprimir();
 //Estructura_queue.imprimir();
 //Estructura_stack.imprimir();
-Estructura_hashset.imprimir();
+//Estructura_hashset.imprimir();
+Estructura_linkedlist.imprimir();
