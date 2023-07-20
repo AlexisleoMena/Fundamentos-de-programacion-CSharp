@@ -1,4 +1,4 @@
-## Generalidades del lenguaje en archivos de C#
+## Generalidades del lenguaje C#
 
 **01-Variables-y-constantes.cs**
 
