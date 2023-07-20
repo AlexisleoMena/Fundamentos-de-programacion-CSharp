@@ -16,4 +16,5 @@
 //Estructura_stack.imprimir();
 //Estructura_hashset.imprimir();
 //Estructura_linkedlist.imprimir();
-Estructura_Tree.imprimir();
+//Estructura_Tree.imprimir();
+Estructura_graph.imprimir();
