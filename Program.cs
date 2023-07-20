@@ -10,4 +10,5 @@
 //Estructura_while.imprimir();
 //Estructura_do_while.imprimir();
 //Funciones.imprimir();
-Estructura_array.imprimir();
+//Estructura_array.imprimir();
+Estructura_dictionary.imprimir();
