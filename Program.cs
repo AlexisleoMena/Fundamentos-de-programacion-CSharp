@@ -7,4 +7,5 @@
 //Sentencia_continue.imprimir();
 //Estructura_switch_case.imprimir();
 //Estructura_for.imprimir();
-Estructura_while.imprimir();
+//Estructura_while.imprimir();
+Estructura_do_while.imprimir();
