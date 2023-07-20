@@ -22,4 +22,5 @@
 //Struct.imprimir();
 //Recursion.imprimir();
 //Expresiones_lambda.imprimir();
-Delegados.imprimir();
+//Delegados.imprimir();
+Clousures.imprimir();
