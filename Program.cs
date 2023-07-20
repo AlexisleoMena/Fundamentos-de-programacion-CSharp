@@ -15,4 +15,5 @@
 //Estructura_queue.imprimir();
 //Estructura_stack.imprimir();
 //Estructura_hashset.imprimir();
-Estructura_linkedlist.imprimir();
+//Estructura_linkedlist.imprimir();
+Estructura_Tree.imprimir();
