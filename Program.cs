@@ -20,4 +20,5 @@
 //Estructura_graph.imprimir();
 //Estructura_hashtable.imprimir();
 //Struct.imprimir();
-Recursion.imprimir();
+//Recursion.imprimir();
+Expresiones_lambda.imprimir();
