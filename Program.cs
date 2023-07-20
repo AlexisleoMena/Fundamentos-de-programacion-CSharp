@@ -9,4 +9,5 @@
 //Estructura_for.imprimir();
 //Estructura_while.imprimir();
 //Estructura_do_while.imprimir();
-Funciones.imprimir();
+//Funciones.imprimir();
+Estructura_array.imprimir();
