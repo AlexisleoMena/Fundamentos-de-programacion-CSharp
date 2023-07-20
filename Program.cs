@@ -21,4 +21,5 @@
 //Estructura_hashtable.imprimir();
 //Struct.imprimir();
 //Recursion.imprimir();
-Expresiones_lambda.imprimir();
+//Expresiones_lambda.imprimir();
+Delegados.imprimir();
