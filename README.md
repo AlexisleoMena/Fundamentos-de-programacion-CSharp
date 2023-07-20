@@ -319,3 +319,78 @@ Ejemplo:
   ages.Add("Alice", 30);
   int aliceAge = (int)ages["Alice"]; // aliceAge = 30
 ```
+
+**23-Struct.cs**
+
+Las estructuras (struct) en C# son tipos de valor que se utilizan para encapsular un conjunto de campos o propiedades. A diferencia de las clases, las estructuras se almacenan en la pila en lugar del montón (heap), lo que las hace más eficientes en términos de rendimiento.
+
+Ejemplo:
+
+```csharp
+  public struct Point {
+    public int X;
+    public int Y;
+  }
+  Point p = new Point();
+  p.X = 10;
+  p.Y = 20;
+```
+
+**24-Recursion.cs**
+
+La recursión es un enfoque de resolución de problemas en el que una función se llama a sí misma para resolver un problema más pequeño. Es especialmente útil en problemas que pueden dividirse en subproblemas idénticos o similares. En C#, es importante tener en cuenta los casos base para evitar bucles infinitos.
+
+Ejemplo:
+
+```csharp
+  public int Factorial(int n) {
+    if (n == 0) return 1;
+    return n * Factorial(n - 1);
+  }
+  int result = Factorial(5); // result = 120
+```
+
+
+**25-Expresiones-lamdba.cs**
+
+Las expresiones lambda son funciones anónimas y compactas que se pueden usar para crear delegados o tipos de expresiones en C#. Permiten escribir funciones cortas y concisas directamente en el código sin la necesidad de definir un método completo. Las expresiones lambda son especialmente útiles al trabajar con LINQ (Language-Integrated Query) y delegados.
+
+Ejemplo:
+
+```csharp
+// Expresión lambda para calcular el cuadrado de un número
+Func<int, int> square = x => x * x;
+
+int result = square(5); // result = 25
+```
+
+**26-Delegados.cs**
+
+Los delegados en C# son tipos de referencia que representan referencias a métodos con una firma específica. Permiten pasar métodos como argumentos a otros métodos o asignarlos a variables y usarlos para invocar el método posteriormente. Los delegados son fundamentales en la implementación de eventos y permiten lograr una mayor flexibilidad y extensibilidad en la programación.
+
+Ejemplo:
+
+```csharp
+public delegate void MyDelegate(string message);
+
+// Crear una instancia del delegado y asociarlo con un método
+MyDelegate myDelegate = message => Console.WriteLine(message);
+
+// Invocar el método a través del delegado
+myDelegate("¡Hola, mundo!");
+```
+
+**27-Clousures.cs**
+
+Los closures son funciones anidadas que pueden acceder y recordar variables locales de las funciones en las que están definidas. En C#, los closures son útiles cuando se trabaja con delegados, eventos o expresiones lambda.
+
+Ejemplo:
+
+```csharp
+  public Func<int, int> MultiplyBy(int factor) {
+    return x => x * factor;
+  }
+  var multiplyByFive = MultiplyBy(5);
+  int result = multiplyByFive(10); // result = 50
+```
+
