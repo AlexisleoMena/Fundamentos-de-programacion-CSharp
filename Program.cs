@@ -23,4 +23,5 @@
 //Recursion.imprimir();
 //Expresiones_lambda.imprimir();
 //Delegados.imprimir();
-Clousures.imprimir();
+//Clousures.imprimir();
+ClaseString.Imprimir();
